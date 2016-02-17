@@ -1,0 +1,19 @@
+signalling=fxs_ks
+callerid=asreceived
+group=0
+context=from-pstn
+channel => 3
+callerid=
+group=
+context=default
+
+#/dahdi/system.conf
+
+fxsks=3
+
+# Global data
+
+loadzone        = br
+defaultzone     = br
+
+
